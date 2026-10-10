@@ -7,5 +7,3 @@ __pycache__/
 # Never commit source data, including accidentally nested data folders
 data/*.parquet
 **/data/*.parquet
-
-miniproject-evidence.pdf
