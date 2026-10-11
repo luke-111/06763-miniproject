@@ -1,0 +1,11499 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 19 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4842 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+/F2 8 Tf
+(Miniproject evidence) Tj
+T*
+T*
+/F1 8 Tf
+(team 
+miniproject20: wenwenw, junwooh, bolanz, pbu) Tj
+T*
+(generated 2026-10-09 20:13 EDT on macOS-15.7.7-arm64-arm-64bit, polars 2.0.0, numpy 2.5.3) Tj
+T*
+(project 06763-miniproject) Tj
+T*
+(evidence script sha256 744445fa94498271372f89d7a8053499fd20999c7754842f770eb7bd5f4a157a) Tj
+T*
+T*
+/F2 8 Tf
+(Score  ) Tj
+0.00 0.45 0.15 rg
+(10.0 / 10) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  automatic, of 15 for the miniproject.) Tj
+T*
+0.40 0.40 0.40 rg
+(  REPORT.pdf is worth 5, is submitted separately, and is read by your TA.) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(What this script found) Tj
+T*
+T*
+/F1 8 Tf
+(  free           data/tep_fault_free_training.parquet) Tj
+T*
+(  faulty         data/tep_faulty_training_runs01-20.parquet) Tj
+T*
+(  pca            results/scores_pca.parquet) Tj
+T*
+(  ridge          results/scores_ridge.parquet) Tj
+T*
+(  thresholds     results/thresholds.csv) Tj
+T*
+(  detection      results/detection.csv) Tj
+T*
+(  contributions  results/contributions.csv) Tj
+T*
+T*
+/F2 8 Tf
+(Detectors) Tj
+(   5.0 / 5) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  scores_pca.parquet present) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  every required PCA row scored) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% covered, 0 extra rows) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  T2 matches the reference) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% of rows within 0.1 %) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  SPE matches the reference) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% of rows within 0.1 %) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  scores_ridge.parquet present) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  every required ridge row scored) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% covered, 0 extra rows) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ridge score matches the reference) Tj
+T*
+0.40 0.40 0.40 rg
+(          100.00% of rows within 0.1 %) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  a ridge regression fit in the code) Tj
+T*
+T*
+/F2 8 Tf
+(Evaluation and diagnosis) Tj
+(   5.0 / 5) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  thresholds.csv with T2, SPE and ridge) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  thresholds are the 99th percentile of the team's validation scores) Tj
+T*
+0.40 0.40 0.40 rg
+(          agree for ['T2', 'SPE', 'ridge']) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  detection.csv matches a recomputation from the team's scores) Tj
+T*
+0.40 0.40 0.40 rg
+(          100% of fault/detector detection rates agree within 0.001) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  false-alarm rows \(fault 0\) reported for each detector) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  detection.csv covers faults 1 to 20 for all three detectors) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  faults 3, 9 and 15 reported as not detected) Tj
+T*
+0.40 0.40 0.40 rg
+(          largest rate 0.000) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  contributions.csv present) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.00 0.45 0.15 rg
+([PASS]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  top channels match the reference) Tj
+T*
+0.40 0.40 0.40 rg
+(          100% of fault/detector top channels agree) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(REPORT.pdf) Tj
+(   5 points, read by your TA) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+/F2 8 Tf
+0.60 0.42 0.00 rg
+([SKIP]) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  REPORT.pdf, submitted separately and read by your TA) Tj
+T*
+T*
+/F2 8 Tf
+(Transcript) Tj
+T*
+T*
+(  data) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    tep_fault_free_training.parquet: tep_fault_free_training.parquet, sha256 matches the published file) Tj
+T*
+(    tep_faulty_training_runs01-20.parquet: tep_faulty_training_runs01-20.parquet, sha256 matches the) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.40 0.40 0.40 rg
+(published file) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  the script's own detectors) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    PCA: 31 components reach 90% of the variance) Tj
+T*
+(    ridge: 2 lags of 52 channels, alpha 1.0) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 1 of 19) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4137 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+0.40 0.40 0.40 rg
+(    thresholds \(99th percentile of validation runs\): T2 51.7971, SPE 11.7745, ridge 112.4423) Tj
+T*
+(    rows to score: 300,000 \(validation, test, faults 1-20 runs 1-20\)) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  scores_pca.parquet against the reference) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    {) Tj
+T*
+(     "rows_mine": 300000,) Tj
+T*
+(     "rows_ref": 300000,) Tj
+T*
+(     "covered": 1.0,) Tj
+T*
+(     "extra": 0,) Tj
+T*
+(     "t2": 1.0,) Tj
+T*
+(     "spe": 1.0) Tj
+T*
+(    }) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  scores_ridge.parquet against the reference) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    {) Tj
+T*
+(     "rows_mine": 298800,) Tj
+T*
+(     "rows_ref": 298800,) Tj
+T*
+(     "covered": 1.0,) Tj
+T*
+(     "extra": 0,) Tj
+T*
+(     "score": 1.0) Tj
+T*
+(    }) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  detection.csv against a recomputation) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    100% of fault/detector detection rates agree within 0.001) Tj
+T*
+(    100% of median delays agree) Tj
+T*
+(    shape: \(12, 7\)) Tj
+T*
+(    ???????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? fault ? detector ? detection_rate ? median_delay_min ? runs_missed ? rate_mine ? delay_mine ?) Tj
+T*
+(    ? ---   ? ---      ? ---            ? ---              ? ---         ? ---       ? ---        ?) Tj
+T*
+(    ? i64   ? str      ? f64            ? f64              ? i64         ? f64       ? f64        ?) Tj
+T*
+(    ???????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+(    ? 0     ? T2       ? 0.00052        ? null             ? null        ? 0.00052   ? null       ?) Tj
+T*
+(    ? 1     ? T2       ? 0.985417       ? 25.5             ? 0           ? 0.985417  ? 25.5       ?) Tj
+T*
+(    ? 2     ? T2       ? 0.972813       ? 39.0             ? 0           ? 0.972813  ? 39.0       ?) Tj
+T*
+(    ? 3     ? T2       ? 0.000208       ? 231.0            ? 19          ? 0.000208  ? 231.0      ?) Tj
+T*
+(    ? 4     ? T2       ? 0.091354       ? 64.5             ? 0           ? 0.091354  ? 64.5       ?) Tj
+T*
+(    ? ?     ? ?        ? ?              ? ?                ? ?           ? ?         ? ?          ?) Tj
+T*
+(    ? 7     ? T2       ? 0.995937       ? 9.0              ? 0           ? 0.995937  ? 9.0        ?) Tj
+T*
+(    ? 8     ? T2       ? 0.941875       ? 70.5             ? 0           ? 0.941875  ? 70.5       ?) Tj
+T*
+(    ? 9     ? T2       ? 0.000104       ? 231.0            ? 19          ? 0.000104  ? 231.0      ?) Tj
+T*
+(    ? 10    ? T2       ? 0.084896       ? 471.0            ? 0           ? 0.084896  ? 471.0      ?) Tj
+T*
+(    ? 11    ? T2       ? 0.257708       ? 43.5             ? 0           ? 0.257708  ? 43.5       ?) Tj
+T*
+(    ???????????????????????????????????????????????????????????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  contributions.csv against the reference) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    34 of 34 top channels agree) Tj
+T*
+(      fault  1 SPE    reference xmeas_4   yours xmeas_4) Tj
+T*
+(      fault  1 ridge  reference xmeas_1   yours xmeas_1) Tj
+T*
+(      fault  2 SPE    reference xmeas_25  yours xmeas_25) Tj
+T*
+(      fault  2 ridge  reference xmeas_10  yours xmeas_10) Tj
+T*
+(      fault  4 SPE    reference xmv_10    yours xmv_10) Tj
+T*
+(      fault  4 ridge  reference xmv_10    yours xmv_10) Tj
+T*
+(      fault  5 SPE    reference xmeas_38  yours xmeas_38) Tj
+T*
+(      fault  5 ridge  reference xmeas_1   yours xmeas_1) Tj
+T*
+(      fault  6 SPE    reference xmv_5     yours xmv_5) Tj
+T*
+(      fault  6 ridge  reference xmeas_1   yours xmeas_1) Tj
+T*
+(      fault  7 SPE    reference xmeas_4   yours xmeas_4) Tj
+T*
+(      fault  7 ridge  reference xmv_4     yours xmv_4) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(  the script's detection table, for comparison) Tj
+T*
+T*
+/F1 8 Tf
+0.40 0.40 0.40 rg
+(    shape: \(21, 4\)) Tj
+T*
+(    ???????????????????????????????????????????) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 2 of 19) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 6940 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+0.40 0.40 0.40 rg
+(    ? fault ? T2       ? SPE       ? ridge    ?) Tj
+T*
+(    ? ---   ? ---      ? ---       ? ---      ?) Tj
+T*
+(    ? i64   ? f64      ? f64       ? f64      ?) Tj
+T*
+(    ???????????????????????????????????????????) Tj
+T*
+(    ? 0     ? 0.00052  ? 0.0       ? 0.0      ?) Tj
+T*
+(    ? 1     ? 0.985417 ? 0.991875  ? 0.993542 ?) Tj
+T*
+(    ? 2     ? 0.972813 ? 0.958958  ? 0.965104 ?) Tj
+T*
+(    ? 3     ? 0.000208 ? 0.0       ? 0.0      ?) Tj
+T*
+(    ? 4     ? 0.091354 ? 0.994167  ? 0.968854 ?) Tj
+T*
+(    ? ?     ? ?        ? ?         ? ?        ?) Tj
+T*
+(    ? 16    ? 0.019375 ? 0.101146  ? 0.711875 ?) Tj
+T*
+(    ? 17    ? 0.665938 ? 0.8678125 ? 0.866875 ?) Tj
+T*
+(    ? 18    ? 0.870833 ? 0.884375  ? 0.892708 ?) Tj
+T*
+(    ? 19    ? 0.009896 ? 0.003333  ? 0.029167 ?) Tj
+T*
+(    ? 20    ? 0.13625  ? 0.432188  ? 0.635104 ?) Tj
+T*
+(    ???????????????????????????????????????????) Tj
+T*
+T*
+/F2 8 Tf
+0.00 0.00 0.00 rg
+(Code: common.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Paths, data splits and the standardization shared by the PCA and forecast monitors.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pathlib) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Path) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(ROOT) Tj
+( = ) Tj
+(Path) Tj
+(\() Tj
+(__file__) Tj
+(\).) Tj
+(resolve) Tj
+(\(\).) Tj
+(parent) Tj
+T*
+(  ) Tj
+(DATA) Tj
+( = ) Tj
+(ROOT) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("data") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(FREE) Tj
+( = ) Tj
+(DATA) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("tep_fault_free_training.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(FAULTY) Tj
+( = ) Tj
+(DATA) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("tep_faulty_training_runs01-20.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(RESULTS) Tj
+( = ) Tj
+(ROOT) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("results") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(FIGURES) Tj
+( = ) Tj
+(ROOT) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("figures") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(FAULT) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("faultNumber") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(RUN) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("simulationRun") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(SAMPLE) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("sample") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(KEYS) Tj
+( = [) Tj
+(FAULT) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(SAMPLE) Tj
+(]) Tj
+T*
+(  ) Tj
+(CHANNELS) Tj
+( = [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmeas_{i}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(42) Tj
+0.00 0.00 0.00 rg
+(\)] + [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmv_{i}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(12) Tj
+0.00 0.00 0.00 rg
+(\)]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(TRAIN) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(300) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(VALIDATION) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(301) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(400) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(TEST) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(401) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(500) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(FAULTS) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(FAULT_RUNS) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(FAULT_START) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(load) Tj
+(\(\) -> ) Tj
+(tuple) Tj
+([) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return training runs 1 to 300 and the validation, test and faulty rows, both sorted by fault, run) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(and sample.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(free) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(FREE) Tj
+(, ) Tj
+(columns) Tj
+(=) Tj
+(KEYS) Tj
+( + ) Tj
+(CHANNELS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(faulty) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(FAULTY) Tj
+(, ) Tj
+(columns) Tj
+(=) Tj
+(KEYS) Tj
+( + ) Tj
+(CHANNELS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(train) Tj
+( = ) Tj
+(free) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(TRAIN) Tj
+(\)\).) Tj
+(sort) Tj
+(\() Tj
+(KEYS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(scored) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\([) Tj
+T*
+(  ) Tj
+(        ) Tj
+(free) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\() Tj
+(VALIDATION) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(TEST) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]\)\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(faulty) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(FAULTS) Tj
+(\) & ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(FAULT_RUNS) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(    ]\).) Tj
+(sort) Tj
+(\() Tj
+(KEYS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(train) Tj
+(, ) Tj
+(scored) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(class) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Standardizer) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Per-channel mean and standard deviation \(ddof=1\) from the training runs.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__init__) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(train) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\):) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 3 of 19) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 8876 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(        ) Tj
+(x) Tj
+( = ) Tj
+(train) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(mean) Tj
+( = ) Tj
+(x) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(std) Tj
+( = ) Tj
+(x) Tj
+(.) Tj
+(std) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ddof) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(transform) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("""Return the keys and the 52 standardized channels.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(z) Tj
+( = \() Tj
+(frame) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\) - ) Tj
+(self) Tj
+(.) Tj
+(mean) Tj
+(\) / ) Tj
+(self) Tj
+(.) Tj
+(std) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(frame) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(            [) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+(c) Tj
+(, ) Tj
+(z) Tj
+([:, ) Tj
+(j) Tj
+(]\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(j) Tj
+(, ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(enumerate) Tj
+(\() Tj
+(CHANNELS) Tj
+(\)]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(split_of) Tj
+(\() Tj
+(frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Add a split column: validation, test or faulty.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(frame) Tj
+(.) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(split) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(when) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) > ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(then) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("faulty") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(        .) Tj
+(when) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(VALIDATION) Tj
+(\)\).) Tj
+(then) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("validation") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(        .) Tj
+(otherwise) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("test") Tj
+0.00 0.00 0.00 rg
+(\)\)\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: diagnosis.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Diagnosis: the channels that drive the SPE and ridge alarms, per fault.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(SPE and the ridge score are sums of squares over the 52 channels, so each splits into one) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(contribution per channel. For each fault and detector, the contributions are averaged over every) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(sample in alarm after sample 20, pooled over the 20 runs, and the five largest are kept.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(The alarms are the evaluation's: evaluate.py's threshold and three-in-a-row rule, applied to the) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(scores in results/, so the samples averaged here are the ones counted in detection.csv.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(CHANNELS) Tj
+(, ) Tj
+(FAULT) Tj
+(, ) Tj
+(FAULT_START) Tj
+(, ) Tj
+(FAULTS) Tj
+(, ) Tj
+(KEYS) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(SAMPLE) Tj
+(, ) Tj
+(Standardizer) Tj
+(, ) Tj
+(load) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(evaluate) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(alarm_flags) Tj
+(, ) Tj
+(validation_threshold) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(forecast_monitor) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ForecastMonitor) Tj
+(, ) Tj
+(make_table) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pca_monitor) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fit_pca) Tj
+(, ) Tj
+(spe_contributions) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(TOP) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(SCORES) Tj
+( = {) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(: \() Tj
+0.62 0.20 0.12 rg
+("scores_pca.parquet") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(\), ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(: \() Tj
+0.62 0.20 0.12 rg
+("scores_ridge.parquet") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(\)}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(channel_terms) Tj
+(\() Tj
+(train) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(faulty) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(dict) Tj
+([) Tj
+(str) Tj
+(, ) Tj
+(tuple) Tj
+([) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(]]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return, for SPE and ridge, the keys of the faulty rows and each channel's term of the statistic.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    SPE: \(z_j - \(P P^T z\)_j\)^2 from the PCA monitor. Ridge: the squared standardized residual of) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    channel j from the forecast monitor. Each row of terms sums to that row's SPE or ridge score.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(std) Tj
+( = ) Tj
+(Standardizer) Tj
+(\() Tj
+(train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(z_train) Tj
+(, ) Tj
+(z) Tj
+( = ) Tj
+(std) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(train) Tj
+(\), ) Tj
+(std) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(faulty) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(table) Tj
+( = ) Tj
+(make_table) Tj
+(\() Tj
+(z) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( {) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(: \() Tj
+(z) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\), ) Tj
+(spe_contributions) Tj
+(\() Tj
+(z) Tj
+(, ) Tj
+(fit_pca) Tj
+(\() Tj
+(z_train) Tj
+(\)\)\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(: \() Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\), ) Tj
+(ForecastMonitor) Tj
+(\(\).) Tj
+(fit) Tj
+(\() Tj
+(make_table) Tj
+(\() Tj
+(z_train) Tj
+(\)\).) Tj
+(contributions) Tj
+(\() Tj
+(table) Tj
+(\)\),) Tj
+T*
+(  ) Tj
+(    }) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(alarm_samples) Tj
+(\() Tj
+(detector) Tj
+(: ) Tj
+(str) Tj
+(, ) Tj
+(keys) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(terms) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(\) -> ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return which faulty rows are in alarm after sample 20, by the evaluation's rule on the scores in) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(results/.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Raises if the channel terms do not add up to those scores, i.e. if results/ is out of date.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(name) Tj
+(, ) Tj
+(column) Tj
+( = ) Tj
+(SCORES) Tj
+([) Tj
+(detector) Tj
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+(name) Tj
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 4 of 19) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 12521 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(threshold) Tj
+( = ) Tj
+(validation_threshold) Tj
+(\() Tj
+(scores) Tj
+(, ) Tj
+(column) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(faulty) Tj
+( = ) Tj
+(scores) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) > ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(sort) Tj
+(\() Tj
+(KEYS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(faulty) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\).) Tj
+(equals) Tj
+(\() Tj
+(keys) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("results/{name} does not hold the faulty rows the monitor scores") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(score) Tj
+( = ) Tj
+(faulty) Tj
+([) Tj
+(column) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(gap) Tj
+( = ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(max) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(abs) Tj
+(\() Tj
+(terms) Tj
+(.) Tj
+(sum) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\) - ) Tj
+(score) Tj
+(\) / ) Tj
+(score) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(gap) Tj
+( > 1) Tj
+(e) Tj
+(-) Tj
+0.05 0.40 0.50 rg
+(6) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("the channel terms do not add up to results/{name} \(relative gap {gap:.1e}\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{detector}: threshold {threshold!r}; terms add up to results/{name} to a relative {gap:.1e}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(flags) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(concatenate) Tj
+(\([) Tj
+(alarm_flags) Tj
+(\() Tj
+(g) Tj
+([) Tj
+(column) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\), ) Tj
+(threshold) Tj
+(\)) Tj
+T*
+(  ) Tj
+(                            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(_) Tj
+(, ) Tj
+(g) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(faulty) Tj
+(.) Tj
+(group_by) Tj
+(\([) Tj
+(FAULT) Tj
+(, ) Tj
+(RUN) Tj
+(], ) Tj
+(maintain_order) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)]\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(flags) Tj
+( & \() Tj
+(faulty) Tj
+([) Tj
+(SAMPLE) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\) > ) Tj
+(FAULT_START) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mean_contributions) Tj
+(\() Tj
+(detector) Tj
+(: ) Tj
+(str) Tj
+(, ) Tj
+(keys) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(terms) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Average each channel's term over the alarm samples after sample 20 of each fault, pooled over its) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(runs.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    Faults with no such sample are left out, since their average is undefined.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(keep) Tj
+( = ) Tj
+(alarm_samples) Tj
+(\() Tj
+(detector) Tj
+(, ) Tj
+(keys) Tj
+(, ) Tj
+(terms) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fault) Tj
+( = ) Tj
+(keys) Tj
+([) Tj
+(FAULT) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(frames) Tj
+( = []) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+(FAULTS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(FAULTS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(] + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(m) Tj
+( = ) Tj
+(keep) Tj
+( & \() Tj
+(fault) Tj
+( == ) Tj
+(f) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(m) Tj
+(.) Tj
+(any) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+(frames) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\({) Tj
+0.62 0.20 0.12 rg
+("channel") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(CHANNELS) Tj
+(, ) Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(terms) Tj
+([) Tj
+(m) Tj
+(].) Tj
+(mean) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)}\)) Tj
+T*
+(  ) Tj
+(                          .) Tj
+(with_columns) Tj
+(\() Tj
+(fault) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+(f) Tj
+(\), ) Tj
+(detector) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+(detector) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                                        ) Tj
+(samples) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(lit) Tj
+(\() Tj
+(int) Tj
+(\() Tj
+(m) Tj
+(.) Tj
+(sum) Tj
+(\(\)\)\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\() Tj
+(frames) Tj
+(\).) Tj
+(select) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("channel") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("samples") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(mean_table) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return the mean contribution of every channel, per fault and detector.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(train) Tj
+(, ) Tj
+(scored) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(terms) Tj
+( = ) Tj
+(channel_terms) Tj
+(\() Tj
+(train) Tj
+(, ) Tj
+(scored) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) > ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(concat) Tj
+(\([) Tj
+(mean_contributions) Tj
+(\() Tj
+(detector) Tj
+(, ) Tj
+(keys) Tj
+(, ) Tj
+(t) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(detector) Tj
+(, \() Tj
+(keys) Tj
+(, ) Tj
+(t) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(terms) Tj
+(.) Tj
+(items) Tj
+(\(\)]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(top_channels) Tj
+(\() Tj
+(means) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return the TOP channels with the largest mean contribution per fault and detector, ranked from 1.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(means) Tj
+(.) Tj
+(sort) Tj
+(\([) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(descending) Tj
+(=[) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(group_by) Tj
+(\([) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(maintain_order) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\).) Tj
+(head) Tj
+(\() Tj
+(TOP) Tj
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(with_columns) Tj
+(\() Tj
+(rank) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(int_range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pl) Tj
+(.) Tj
+(len) Tj
+(\(\) + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(over) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(select) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("rank") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("channel") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Write results/contributions.csv; print the thresholds and the leading channel per fault and) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(detector.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(means) Tj
+( = ) Tj
+(mean_table) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(top) Tj
+( = ) Tj
+(top_channels) Tj
+(\() Tj
+(means) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(top) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("contributions.csv") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(lead) Tj
+( = \() Tj
+(top) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("rank") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(join) Tj
+(\() Tj
+(means) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("samples") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(unique) Tj
+(\(\), ) Tj
+(on) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(            .) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(with) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+(.) Tj
+(Config) Tj
+(\() Tj
+(tbl_rows) Tj
+(=-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+(lead) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("samples") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("channel") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(have) Tj
+( = ) Tj
+(set) Tj
+(\() Tj
+(zip) Tj
+(\() Tj
+(lead) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_list) Tj
+(\(\), ) Tj
+(lead) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_list) Tj
+(\(\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(empty) Tj
+( = [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{f}/{d}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(f) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+(FAULTS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+(FAULTS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(] + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(d) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(f) Tj
+(, ) Tj
+(d) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+T*
+(      ) Tj
+(have) Tj
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{top.height} rows written; no alarm sample after sample {FAULT_START}: {', '.join\(empty\) or) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+('none'}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 5 of 19) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 5013 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(top) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: evaluate.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Evaluate the PCA and ridge fault monitors.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(KEYS) Tj
+(, ) Tj
+(RESULTS) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(VALIDATION_RUNS) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(301) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(400) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(TEST_RUNS) Tj
+( = \() Tj
+0.05 0.40 0.50 rg
+(401) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(500) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(FAULT_ONSET_SAMPLE) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(CONSECUTIVE_EXCEEDANCES) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(DETECTORS) Tj
+( = \() Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(FAULTS) Tj
+( = ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(21) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(alarm_flags) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(threshold) Tj
+(: ) Tj
+(float) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return alarms produced by three consecutive threshold exceedances.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(exceedances) Tj
+( = ) Tj
+(scores) Tj
+( > ) Tj
+(threshold) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(consecutive) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(convolve) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(exceedances) Tj
+(.) Tj
+(astype) Tj
+(\() Tj
+(int) Tj
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(np) Tj
+(.) Tj
+(ones) Tj
+(\() Tj
+(CONSECUTIVE_EXCEEDANCES) Tj
+(, ) Tj
+(dtype) Tj
+(=) Tj
+(int) Tj
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(mode) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("valid") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(alarms) Tj
+( = ) Tj
+(consecutive) Tj
+( >= ) Tj
+(CONSECUTIVE_EXCEEDANCES) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+(.) Tj
+(concatenate) Tj
+(\() Tj
+T*
+(  ) Tj
+(        [) Tj
+T*
+(  ) Tj
+(            ) Tj
+(np) Tj
+(.) Tj
+(zeros) Tj
+(\() Tj
+(CONSECUTIVE_EXCEEDANCES) Tj
+( - ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(dtype) Tj
+(=) Tj
+(bool) Tj
+(\),) Tj
+T*
+(  ) Tj
+(            ) Tj
+(alarms) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ]) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validation_threshold) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(score_column) Tj
+(: ) Tj
+(str) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(float) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Calculate the validation-set 99th percentile.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(validation_scores) Tj
+( = \() Tj
+T*
+(  ) Tj
+(        ) Tj
+(scores) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+T*
+(  ) Tj
+(            \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("faultNumber") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(            & ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("simulationRun") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_between) Tj
+(\() Tj
+T*
+(  ) Tj
+(                *) Tj
+(VALIDATION_RUNS) Tj
+T*
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(        .) Tj
+(get_column) Tj
+(\() Tj
+(score_column) Tj
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 6 of 19) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 5270 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(        .) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validation_scores) Tj
+(.) Tj
+(size) Tj
+( == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("No validation scores found for {score_column}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(quantile) Tj
+(\() Tj
+(validation_scores) Tj
+(, ) Tj
+0.05 0.40 0.50 rg
+(0.99) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(detector_metrics) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(score_column) Tj
+(: ) Tj
+(str) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(detector) Tj
+(: ) Tj
+(str) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(threshold) Tj
+(: ) Tj
+(float) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(list) Tj
+([) Tj
+(dict) Tj
+([) Tj
+(str) Tj
+(, ) Tj
+(object) Tj
+(]]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Calculate false alarms, detection rates and detection delays.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(per_run) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(tuple) Tj
+([) Tj
+(int) Tj
+(, ) Tj
+(float) Tj
+(, ) Tj
+(float) Tj
+( | ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(]] = []) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(grouped) Tj
+( = \() Tj
+T*
+(  ) Tj
+(        ) Tj
+(scores) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+( + [) Tj
+(score_column) Tj
+(]\)) Tj
+T*
+(  ) Tj
+(        .) Tj
+(sort) Tj
+(\() Tj
+(KEYS) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        .) Tj
+(group_by) Tj
+(\() Tj
+T*
+(  ) Tj
+(            [) Tj
+0.62 0.20 0.12 rg
+("faultNumber") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("simulationRun") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(            ) Tj
+(maintain_order) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+(fault) Tj
+(, ) Tj
+(run) Tj
+(\), ) Tj
+(run_scores) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(grouped) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(values) Tj
+( = ) Tj
+(run_scores) Tj
+(.) Tj
+(get_column) Tj
+(\() Tj
+(score_column) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(samples) Tj
+( = ) Tj
+(run_scores) Tj
+(.) Tj
+(get_column) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("sample") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(alarms) Tj
+( = ) Tj
+(alarm_flags) Tj
+(\() Tj
+(values) Tj
+(, ) Tj
+(threshold) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fault) Tj
+( == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(TEST_RUNS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] <= ) Tj
+(run) Tj
+( <= ) Tj
+(TEST_RUNS) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]:) Tj
+T*
+(  ) Tj
+(                ) Tj
+(per_run) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+T*
+(  ) Tj
+(                    \() Tj
+T*
+(  ) Tj
+(                        ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(float) Tj
+(\() Tj
+(alarms) Tj
+(.) Tj
+(mean) Tj
+(\(\)\),) Tj
+T*
+(  ) Tj
+(                        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(                    \)) Tj
+T*
+(  ) Tj
+(                \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(continue) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(post_fault) Tj
+( = ) Tj
+(samples) Tj
+( > ) Tj
+(FAULT_ONSET_SAMPLE) Tj
+T*
+(  ) Tj
+(        ) Tj
+(post_fault_alarms) Tj
+( = ) Tj
+(alarms) Tj
+( & ) Tj
+(post_fault) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(detection_rate) Tj
+( = ) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(alarms) Tj
+([) Tj
+(post_fault) Tj
+(].) Tj
+(mean) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(alarm_positions) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(flatnonzero) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(post_fault_alarms) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(alarm_positions) Tj
+(.) Tj
+(size) Tj
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(first_alarm_sample) Tj
+( = ) Tj
+(samples) Tj
+([) Tj
+T*
+(  ) Tj
+(                ) Tj
+(alarm_positions) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(            ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(            ) Tj
+(delay) Tj
+( = ) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(                \() Tj
+T*
+(  ) Tj
+(                    ) Tj
+(first_alarm_sample) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 7 of 19) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 5883 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(                    - ) Tj
+(FAULT_ONSET_SAMPLE) Tj
+T*
+(  ) Tj
+(                \)) Tj
+T*
+(  ) Tj
+(                * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+T*
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+(delay) Tj
+( = ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(per_run) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+T*
+(  ) Tj
+(            \() Tj
+T*
+(  ) Tj
+(                ) Tj
+(int) Tj
+(\() Tj
+(fault) Tj
+(\),) Tj
+T*
+(  ) Tj
+(                ) Tj
+(detection_rate) Tj
+(,) Tj
+T*
+(  ) Tj
+(                ) Tj
+(delay) Tj
+(,) Tj
+T*
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(rows) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(dict) Tj
+([) Tj
+(str) Tj
+(, ) Tj
+(object) Tj
+(]] = []) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(false_alarm_runs) Tj
+( = [) Tj
+T*
+(  ) Tj
+(        ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(per_run) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(false_alarm_runs) Tj
+(\) != ) Tj
+0.05 0.40 0.50 rg
+(100) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{detector}: expected 100 test runs, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("found {len\(false_alarm_runs\)}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(rows) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+T*
+(  ) Tj
+(        {) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(detector) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("detection_rate") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(                ) Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+T*
+(  ) Tj
+(                    [) Tj
+T*
+(  ) Tj
+(                        ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(                        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(false_alarm_runs) Tj
+T*
+(  ) Tj
+(                    ]) Tj
+T*
+(  ) Tj
+(                \)) Tj
+T*
+(  ) Tj
+(            \),) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("median_delay_min") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("runs_missed") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        }) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fault) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(FAULTS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(fault_runs) Tj
+( = [) Tj
+T*
+(  ) Tj
+(            ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(per_run) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(] == ) Tj
+(fault) Tj
+T*
+(  ) Tj
+(        ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(len) Tj
+(\() Tj
+(fault_runs) Tj
+(\) != ) Tj
+0.05 0.40 0.50 rg
+(20) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(                ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{detector}, fault {fault}: ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("expected 20 runs, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(                ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("found {len\(fault_runs\)}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(detected_delays) Tj
+( = [) Tj
+T*
+(  ) Tj
+(            ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fault_runs) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+(rows) Tj
+(.) Tj
+(append) Tj
+(\() Tj
+T*
+(  ) Tj
+(            {) Tj
+T*
+(  ) Tj
+(                ) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(fault) Tj
+(,) Tj
+T*
+(  ) Tj
+(                ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(detector) Tj
+(,) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 8 of 19) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 5104 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(                ) Tj
+0.62 0.20 0.12 rg
+("detection_rate") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(                    ) Tj
+(np) Tj
+(.) Tj
+(mean) Tj
+(\() Tj
+T*
+(  ) Tj
+(                        [) Tj
+T*
+(  ) Tj
+(                            ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(                            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fault_runs) Tj
+T*
+(  ) Tj
+(                        ]) Tj
+T*
+(  ) Tj
+(                    \)) Tj
+T*
+(  ) Tj
+(                \),) Tj
+T*
+(  ) Tj
+(                ) Tj
+0.62 0.20 0.12 rg
+("median_delay_min") Tj
+0.00 0.00 0.00 rg
+(: \() Tj
+T*
+(  ) Tj
+(                    ) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(                        ) Tj
+(np) Tj
+(.) Tj
+(median) Tj
+(\() Tj
+T*
+(  ) Tj
+(                            ) Tj
+(detected_delays) Tj
+T*
+(  ) Tj
+(                        \)) Tj
+T*
+(  ) Tj
+(                    \)) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(detected_delays) Tj
+T*
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(else) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                \),) Tj
+T*
+(  ) Tj
+(                ) Tj
+0.62 0.20 0.12 rg
+("runs_missed") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(sum) Tj
+(\() Tj
+T*
+(  ) Tj
+(                    ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(] ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(is) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(                    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fault_runs) Tj
+T*
+(  ) Tj
+(                \),) Tj
+T*
+(  ) Tj
+(            }) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(rows) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Generate thresholds.csv and detection.csv.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(pca_path) Tj
+( = ) Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_pca.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(ridge_path) Tj
+( = ) Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_ridge.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(pca_scores) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(pca_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ridge_scores) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(ridge_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(thresholds) Tj
+( = {) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(validation_threshold) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pca_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        \),) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(validation_threshold) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pca_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        \),) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(validation_threshold) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(ridge_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        \),) Tj
+T*
+(  ) Tj
+(    }) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(threshold_table) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\() Tj
+T*
+(  ) Tj
+(        {) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(list) Tj
+(\() Tj
+(thresholds) Tj
+(\),) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("threshold") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(list) Tj
+(\() Tj
+(thresholds) Tj
+(.) Tj
+(values) Tj
+(\(\)\),) Tj
+T*
+(  ) Tj
+(        }) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(metric_rows) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(dict) Tj
+([) Tj
+(str) Tj
+(, ) Tj
+(object) Tj
+(]] = []) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(metric_rows) Tj
+(.) Tj
+(extend) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detector_metrics) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pca_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(thresholds) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 9 of 19) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 4865 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(metric_rows) Tj
+(.) Tj
+(extend) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detector_metrics) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pca_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(thresholds) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(metric_rows) Tj
+(.) Tj
+(extend) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detector_metrics) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(ridge_scores) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(thresholds) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(],) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(detection_table) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(metric_rows) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(schema) Tj
+(={) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(pl) Tj
+(.) Tj
+(Int64) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(pl) Tj
+(.) Tj
+(String) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("detection_rate") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(pl) Tj
+(.) Tj
+(Float64) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("median_delay_min") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(pl) Tj
+(.) Tj
+(Float64) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("runs_missed") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(pl) Tj
+(.) Tj
+(Int64) Tj
+(,) Tj
+T*
+(  ) Tj
+(        },) Tj
+T*
+(  ) Tj
+(    \).) Tj
+(sort) Tj
+(\([) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(detection_table) Tj
+(.) Tj
+(height) Tj
+( != ) Tj
+0.05 0.40 0.50 rg
+(63) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("Expected 63 detection rows, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("found {detection_table.height}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(duplicate_rows) Tj
+( = \() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detection_table) Tj
+(.) Tj
+(height) Tj
+T*
+(  ) Tj
+(        - ) Tj
+(detection_table) Tj
+(.) Tj
+(unique) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(subset) Tj
+(=[) Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(        \).) Tj
+(height) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(duplicate_rows) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("Duplicate fault-detector rows found.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(threshold_path) Tj
+( = ) Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("thresholds.csv") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(detection_path) Tj
+( = ) Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("detection.csv") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(threshold_table) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(threshold_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(detection_table) Tj
+(.) Tj
+(write_csv) Tj
+(\() Tj
+(detection_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("THRESHOLDS") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(threshold_table) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\\nFALSE-ALARM RATES") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detection_table) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 10 of 19) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 7592 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("\\nEXPECTED DIFFICULT FAULTS") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(detection_table) Tj
+(.) Tj
+(filter) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_in) Tj
+(\([) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(9) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(15) Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("\\nSaved thresholds to {threshold_path}") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Saved detection results to {detection_path}") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: forecast_monitor.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Forecast-residual monitor: one ridge predicts all 52 standardized channels at t from t-1 and t-2.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(sklearn) Tj
+(.) Tj
+(linear_model) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(Ridge) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(CHANNELS) Tj
+(, ) Tj
+(FAULT) Tj
+(, ) Tj
+(KEYS) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(Standardizer) Tj
+(, ) Tj
+(load) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(LAGS) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(ALPHA) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lag_names) Tj
+(\() Tj
+(lag) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+(list) Tj
+([) Tj
+(str) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return the column names of the 52 channels lagged by lag samples.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{c}_lag{lag}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(CHANNELS) Tj
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(FEATURES) Tj
+( = [) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lag) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(LAGS) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lag_names) Tj
+(\() Tj
+(lag) Tj
+(\)]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(make_table) Tj
+(\() Tj
+(z) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return the keys, the 104 lagged features and the 52 targets; the first LAGS samples of each run are) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(dropped.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+0.62 0.20 0.12 rg
+(    z holds the keys and standardized channels, sorted by fault, run and sample.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+0.62 0.20 0.12 rg
+(    """) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(lagged) Tj
+( = [) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(c) Tj
+(\).) Tj
+(shift) Tj
+(\() Tj
+(lag) Tj
+(\).) Tj
+(over) Tj
+(\() Tj
+(FAULT) Tj
+(, ) Tj
+(RUN) Tj
+(\).) Tj
+(alias) Tj
+(\() Tj
+(name) Tj
+(\)) Tj
+T*
+(  ) Tj
+(              ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(lag) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(range) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(LAGS) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+(, ) Tj
+(name) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(CHANNELS) Tj
+(, ) Tj
+(lag_names) Tj
+(\() Tj
+(lag) Tj
+(\)\)]) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(z) Tj
+(.) Tj
+(with_columns) Tj
+(\() Tj
+(lagged) Tj
+(\).) Tj
+(drop_nulls) Tj
+(\() Tj
+(FEATURES) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(class) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ForecastMonitor) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Ridge forecaster fitted on the training runs, with each channel's residual standard deviation.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__init__) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(alpha) Tj
+(: ) Tj
+(float) Tj
+( = ) Tj
+(ALPHA) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(model) Tj
+( = ) Tj
+(Ridge) Tj
+(\() Tj
+(alpha) Tj
+(=) Tj
+(alpha) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(res_std) Tj
+( = ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fit) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(train) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(ForecastMonitor) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("""Fit the ridge on the training table and store the residual standard deviation per channel.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(x) Tj
+( = ) Tj
+(train) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(FEATURES) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(y) Tj
+( = ) Tj
+(train) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(model) Tj
+(.) Tj
+(fit) Tj
+(\() Tj
+(x) Tj
+(, ) Tj
+(y) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(self) Tj
+(.) Tj
+(res_std) Tj
+( = \() Tj
+(y) Tj
+( - ) Tj
+(self) Tj
+(.) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(x) Tj
+(\)\).) Tj
+(std) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ddof) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(self) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 11 of 19) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 6094 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(contributions) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(table) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("""Return the squared standardized residual of every channel, one row per sample.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(x) Tj
+( = ) Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(FEATURES) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(y) Tj
+( = ) Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(r) Tj
+( = \() Tj
+(y) Tj
+( - ) Tj
+(self) Tj
+(.) Tj
+(model) Tj
+(.) Tj
+(predict) Tj
+(\() Tj
+(x) Tj
+(\)\) / ) Tj
+(self) Tj
+(.) Tj
+(res_std) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(r) Tj
+( ** ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(score) Tj
+(\() Tj
+(self) Tj
+(, ) Tj
+(table) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("""Return the keys and score, the sum of the 52 squared standardized residuals.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(table) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(score) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+(self) Tj
+(.) Tj
+(contributions) Tj
+(\() Tj
+(table) Tj
+(\).) Tj
+(sum) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Fit on runs 1 to 300 and write results/scores_ridge.parquet.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(train) Tj
+(, ) Tj
+(scored) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(std) Tj
+( = ) Tj
+(Standardizer) Tj
+(\() Tj
+(train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(monitor) Tj
+( = ) Tj
+(ForecastMonitor) Tj
+(\(\).) Tj
+(fit) Tj
+(\() Tj
+(make_table) Tj
+(\() Tj
+(std) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(train) Tj
+(\)\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+( = ) Tj
+(monitor) Tj
+(.) Tj
+(score) Tj
+(\() Tj
+(make_table) Tj
+(\() Tj
+(std) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(scored) Tj
+(\)\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+(.) Tj
+(write_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_ridge.parquet") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{scores.height:,} rows scored") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(scores) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: pca_monitor.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""PCA process monitor using Hotelling's T-squared and SPE statistics.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(dataclasses) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(dataclass) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+T*
+(  ) Tj
+(    ) Tj
+(CHANNELS) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(KEYS) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(Standardizer) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(load) Tj
+(,) Tj
+T*
+(  ) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(VARIANCE_TARGET) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(0.90) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(EXPECTED_SCORE_ROWS) Tj
+( = 300) Tj
+(_000) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(@) Tj
+(dataclass) Tj
+(\() Tj
+(frozen) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(class) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(PCAModel) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Parameters required to apply the fitted PCA monitor.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(all_eigenvalues) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+T*
+(  ) Tj
+(    ) Tj
+(retained_eigenvalues) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+T*
+(  ) Tj
+(    ) Tj
+(loadings) Tj
+(: ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n_components) Tj
+(: ) Tj
+(int) Tj
+T*
+(  ) Tj
+(    ) Tj
+(cumulative_explained_variance) Tj
+(: ) Tj
+(float) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(fit_pca) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardized_train) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(variance_target) Tj
+(: ) Tj
+(float) Tj
+( = ) Tj
+(VARIANCE_TARGET) Tj
+(,) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 12 of 19) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 5340 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(\) -> ) Tj
+(PCAModel) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Fit PCA to standardized fault-free training observations.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(z_train) Tj
+( = ) Tj
+(standardized_train) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# np.cov uses sample normalization \(N - 1\) by default.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(covariance) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(cov) Tj
+(\() Tj
+(z_train) Tj
+(, ) Tj
+(rowvar) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.35 0.48 0.38 rg
+(# eigh returns eigenvalues in ascending order.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(eigenvalues) Tj
+(, ) Tj
+(eigenvectors) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(linalg) Tj
+(.) Tj
+(eigh) Tj
+(\() Tj
+(covariance) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(order) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(argsort) Tj
+(\() Tj
+(eigenvalues) Tj
+(\)[::-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(eigenvalues) Tj
+( = ) Tj
+(eigenvalues) Tj
+([) Tj
+(order) Tj
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(eigenvectors) Tj
+( = ) Tj
+(eigenvectors) Tj
+([:, ) Tj
+(order) Tj
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(explained_ratio) Tj
+( = ) Tj
+(eigenvalues) Tj
+( / ) Tj
+(eigenvalues) Tj
+(.) Tj
+(sum) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(cumulative_variance) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(cumsum) Tj
+(\() Tj
+(explained_ratio) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(n_components) Tj
+( = ) Tj
+(int) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(np) Tj
+(.) Tj
+(searchsorted) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(cumulative_variance) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(variance_target) Tj
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(side) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+(        + ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(retained_eigenvalues) Tj
+( = ) Tj
+(eigenvalues) Tj
+([:) Tj
+(n_components) Tj
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(loadings) Tj
+( = ) Tj
+(eigenvectors) Tj
+([:, :) Tj
+(n_components) Tj
+(]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+(.) Tj
+(any) Tj
+(\() Tj
+(retained_eigenvalues) Tj
+( <= ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("All retained eigenvalues must be positive.") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(PCAModel) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(all_eigenvalues) Tj
+(=) Tj
+(eigenvalues) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(retained_eigenvalues) Tj
+(=) Tj
+(retained_eigenvalues) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(loadings) Tj
+(=) Tj
+(loadings) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(n_components) Tj
+(=) Tj
+(n_components) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(cumulative_explained_variance) Tj
+(=) Tj
+(float) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(cumulative_variance) Tj
+([) Tj
+(n_components) Tj
+( - ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(        \),) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(statistics) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardized_frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+(: ) Tj
+(PCAModel) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(tuple) Tj
+([) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(, ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(]:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Compute T-squared and SPE for every standardized observation.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(z) Tj
+( = ) Tj
+(standardized_frame) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(component_scores) Tj
+( = ) Tj
+(z) Tj
+( @ ) Tj
+(model) Tj
+(.) Tj
+(loadings) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t_squared) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(sum) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(component_scores) Tj
+(**) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+( / ) Tj
+(model) Tj
+(.) Tj
+(retained_eigenvalues) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(reconstruction) Tj
+( = ) Tj
+(component_scores) Tj
+( @ ) Tj
+(model) Tj
+(.) Tj
+(loadings) Tj
+(.) Tj
+(T) Tj
+T*
+(  ) Tj
+(    ) Tj
+(residual) Tj
+( = ) Tj
+(z) Tj
+( - ) Tj
+(reconstruction) Tj
+T*
+(  ) Tj
+(    ) Tj
+(spe) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(sum) Tj
+(\() Tj
+(residual) Tj
+(**) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(axis) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(t_squared) Tj
+(, ) Tj
+(spe) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(spe_contributions) Tj
+(\() Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 13 of 19) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 5985 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(standardized_frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+(: ) Tj
+(PCAModel) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(np) Tj
+(.) Tj
+(ndarray) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return the per-channel squared PCA residual contributions.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(z) Tj
+( = ) Tj
+(standardized_frame) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(CHANNELS) Tj
+(\).) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(component_scores) Tj
+( = ) Tj
+(z) Tj
+( @ ) Tj
+(model) Tj
+(.) Tj
+(loadings) Tj
+T*
+(  ) Tj
+(    ) Tj
+(residual) Tj
+( = ) Tj
+(z) Tj
+( - ) Tj
+(component_scores) Tj
+( @ ) Tj
+(model) Tj
+(.) Tj
+(loadings) Tj
+(.) Tj
+(T) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(residual) Tj
+(**) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(score) Tj
+(\() Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardized_frame) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+(: ) Tj
+(PCAModel) Tj
+(,) Tj
+T*
+(  ) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return identifiers, T-squared and SPE for every row.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(t_squared) Tj
+(, ) Tj
+(spe) Tj
+( = ) Tj
+(statistics) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(standardized_frame) Tj
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+(model) Tj
+(,) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(standardized_frame) Tj
+(.) Tj
+(select) Tj
+(\() Tj
+(KEYS) Tj
+(\).) Tj
+(with_columns) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(t_squared) Tj
+(\),) Tj
+T*
+(  ) Tj
+(        ) Tj
+(pl) Tj
+(.) Tj
+(Series) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(spe) Tj
+(\),) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(validate_scores) Tj
+(\() Tj
+(scores) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Check the required output structure before writing it.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(expected_columns) Tj
+( = [) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("faultNumber") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("simulationRun") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("sample") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(scores) Tj
+(.) Tj
+(columns) Tj
+( != ) Tj
+(expected_columns) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Unexpected output columns: {scores.columns}") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(scores) Tj
+(.) Tj
+(height) Tj
+( != ) Tj
+(EXPECTED_SCORE_ROWS) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Expected {EXPECTED_SCORE_ROWS:,} rows, ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("found {scores.height:,}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(unique_rows) Tj
+( = ) Tj
+(scores) Tj
+(.) Tj
+(unique) Tj
+(\() Tj
+(subset) Tj
+(=) Tj
+(KEYS) Tj
+(\).) Tj
+(height) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(unique_rows) Tj
+( != ) Tj
+(scores) Tj
+(.) Tj
+(height) Tj
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Duplicate identifier rows found.") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(column) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( \() Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(values) Tj
+( = ) Tj
+(scores) Tj
+([) Tj
+(column) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(not) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+(.) Tj
+(all) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(isfinite) Tj
+(\() Tj
+(values) Tj
+(\)\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(                ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Non-finite values found in {column}.") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+(.) Tj
+(any) Tj
+(\() Tj
+(values) Tj
+( < ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(raise) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ValueError) Tj
+(\() Tj
+T*
+(  ) Tj
+(                ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Negative values found in {column}.") Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 14 of 19) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 5195 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(            \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Fit the PCA monitor and write results/scores_pca.parquet.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(train) Tj
+(, ) Tj
+(scored) Tj
+( = ) Tj
+(load) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardizer) Tj
+( = ) Tj
+(Standardizer) Tj
+(\() Tj
+(train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardized_train) Tj
+( = ) Tj
+(standardizer) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(train) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(standardized_scored) Tj
+( = ) Tj
+(standardizer) Tj
+(.) Tj
+(transform) Tj
+(\() Tj
+(scored) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(model) Tj
+( = ) Tj
+(fit_pca) Tj
+(\() Tj
+(standardized_train) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(explained_ratio) Tj
+( = \() Tj
+T*
+(  ) Tj
+(        ) Tj
+(model) Tj
+(.) Tj
+(all_eigenvalues) Tj
+T*
+(  ) Tj
+(        / ) Tj
+(model) Tj
+(.) Tj
+(all_eigenvalues) Tj
+(.) Tj
+(sum) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(cumulative) Tj
+( = ) Tj
+(np) Tj
+(.) Tj
+(cumsum) Tj
+(\() Tj
+(explained_ratio) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Retained PCA components: {model.n_components}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(        ) Tj
+0.62 0.20 0.12 rg
+("Cumulative explained variance: ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{model.cumulative_explained_variance:.6f}") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(model) Tj
+(.) Tj
+(n_components) Tj
+( > ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(        ) Tj
+(print) Tj
+(\() Tj
+T*
+(  ) Tj
+(            ) Tj
+0.62 0.20 0.12 rg
+("Variance with k - 1 components: ") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(            ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{cumulative[model.n_components - 2]:.6f}") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(        \)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(scores) Tj
+( = ) Tj
+(score) Tj
+(\() Tj
+(standardized_scored) Tj
+(, ) Tj
+(model) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(validate_scores) Tj
+(\() Tj
+(scores) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(RESULTS) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(output_path) Tj
+( = ) Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_pca.parquet") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(scores) Tj
+(.) Tj
+(write_parquet) Tj
+(\() Tj
+(output_path) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{scores.height:,} PCA rows scored") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(print) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Saved PCA scores to {output_path}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(scores) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: plot_contributions.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Plot the channels that drive the SPE and ridge alarms for a few faults, as shares of the mean) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(statistic.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(FIGURES) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(diagnosis) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(TOP) Tj
+(, ) Tj
+(mean_table) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(matplotlib) Tj
+(.) Tj
+(use) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Agg") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Downs and Vogel \(1993\); streams in brackets.) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 15 of 19) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 36 0 R >>
+endobj
+36 0 obj
+<< /Length 15219 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(DESCRIPTION) Tj
+( = {) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_1") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A feed \(1\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_2") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("D feed \(2\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_3") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("E feed \(3\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_4") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A and C feed \(4\)") Tj
+0.00 0.00 0.00 rg
+T*
+(      ) Tj
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_5") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("recycle flow \(8\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_6") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor feed rate \(6\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_7") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor pressure") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_8") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor level") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_9") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor temperature") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_10") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("purge rate \(9\)") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_11") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator temperature") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_12") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator level") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_13") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator pressure") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_14") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator underflow \(10\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_15") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper level") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_16") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper pressure") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_17") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper underflow \(11\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_18") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper temperature") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_19") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper steam) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(flow") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_20") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("compressor work") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmeas_21") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor cooling water outlet temp.") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmeas_22") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator cooling water outlet temp.") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    **{) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmeas_{23 + i}") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("reactor feed {c} \(6\)") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+(, ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(enumerate) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("ABCDEF") Tj
+0.00 0.00 0.00 rg
+(\)},) Tj
+T*
+(  ) Tj
+(    **{) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmeas_{29 + i}") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("purge gas {c} \(9\)") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+(, ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(enumerate) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("ABCDEFGH") Tj
+0.00 0.00 0.00 rg
+(\)},) Tj
+T*
+(  ) Tj
+(    **{) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("xmeas_{37 + i}") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("product {c} \(11\)") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(i) Tj
+(, ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(enumerate) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("DEFGH") Tj
+0.00 0.00 0.00 rg
+(\)},) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmv_1") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("D feed flow \(2\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_2") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("E feed flow \(3\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_3") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A feed flow \(1\)") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmv_4") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A and C feed flow \(4\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_5") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("compressor recycle valve") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_6") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("purge valve \(9\)") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmv_7") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("separator pot liquid flow \(10\)") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_8") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper liquid product flow \(11\)") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("xmv_9") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("stripper steam valve") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_10") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor cooling water flow") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("xmv_11") Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("condenser cooling) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(water flow") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+0.35 0.48 0.38 rg
+(# Chiang, Russell and Braatz \(2000\), Table 1.) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(FAULT_NAME) Tj
+( = {) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A/C feed ratio, B composition constant \(4\), step") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("B composition, A/C ratio constant \(4\), step") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("D feed temperature \(2\), step") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor cooling water inlet temperature, step") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(5) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("condenser cooling water inlet temperature, step") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(6) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A feed loss \(1\), step") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(7) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("C header pressure loss \(4\), step") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("A, B, C feed composition \(4\), random") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(9) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("D feed temperature \(2\), random") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("C feed temperature \(4\), random") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(11) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor cooling water inlet temperature, random") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(12) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("condenser cooling water inlet temperature,) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(random") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(13) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reaction kinetics, slow drift") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(14) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("reactor cooling water valve, sticking") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.05 0.40 0.50 rg
+(15) Tj
+0.00 0.00 0.00 rg
+(: ) Tj
+0.62 0.20 0.12 rg
+("condenser cooling water valve, sticking") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(}) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(BAR) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("#2a78d6") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(INK) Tj
+(, ) Tj
+(MUTED) Tj
+(, ) Tj
+(GRID) Tj
+( = ) Tj
+0.62 0.20 0.12 rg
+("#0b0b0b") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("#52514e") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("#e1e0d9") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(shares) Tj
+(\() Tj
+(means) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Add each channel's share of the mean statistic, the sum of the mean contributions of its fault and) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(detector.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(means) Tj
+(.) Tj
+(with_columns) Tj
+(\() Tj
+(share) Tj
+(=) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(\) / ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("contribution") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(sum) Tj
+(\(\).) Tj
+(over) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("det) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(ector") Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(panel) Tj
+(\() Tj
+(ax) Tj
+(: ) Tj
+(plt) Tj
+(.) Tj
+(Axes) Tj
+(, ) Tj
+(g) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(, ) Tj
+(detector) Tj
+(: ) Tj
+(str) Tj
+(, ) Tj
+(right) Tj
+(: ) Tj
+(float) Tj
+(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Draw the top channels of one fault and detector as horizontal bars, largest on top.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_xlim) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(right) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(xaxis) Tj
+(.) Tj
+(set_major_locator) Tj
+(\() Tj
+(matplotlib) Tj
+(.) Tj
+(ticker) Tj
+(.) Tj
+(MultipleLocator) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(0.25) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(xaxis) Tj
+(.) Tj
+(set_major_formatter) Tj
+(\() Tj
+(matplotlib) Tj
+(.) Tj
+(ticker) Tj
+(.) Tj
+(PercentFormatter) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(decimals) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(tick_params) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("x") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(labelsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(colors) Tj
+(=) Tj
+(MUTED) Tj
+(, ) Tj
+(length) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(spines) Tj
+([[) Tj
+0.62 0.20 0.12 rg
+("top") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("right") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(]].) Tj
+(set_visible) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(spines) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("bottom") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(set_color) Tj
+(\() Tj
+(GRID) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(grid) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("x") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(GRID) Tj
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.6) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_axisbelow) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(g) Tj
+(.) Tj
+(is_empty) Tj
+(\(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(set_yticks) Tj
+(\([]\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(set_title) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{detector}: no alarm sample after sample 20") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(7) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(MUTED) Tj
+(, ) Tj
+(loc) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("right") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(p) Tj
+T*
+(      ) Tj
+(ad) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+T*
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(g) Tj
+( = ) Tj
+(g) Tj
+(.) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("share") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(descending) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\).) Tj
+(head) Tj
+(\() Tj
+(TOP) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(y) Tj
+( = ) Tj
+(list) Tj
+(\() Tj
+(range) Tj
+(\() Tj
+(g) Tj
+(.) Tj
+(height) Tj
+(\)\)[::-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(]) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(barh) Tj
+(\() Tj
+(y) Tj
+(, ) Tj
+(g) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("share") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_numpy) Tj
+(\(\), ) Tj
+(height) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.62) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(BAR) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(yi) Tj
+(, ) Tj
+(share) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(y) Tj
+(, ) Tj
+(g) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("share") Tj
+0.00 0.00 0.00 rg
+(]\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(text) Tj
+(\() Tj
+(share) Tj
+( + ) Tj
+0.05 0.40 0.50 rg
+(0.012) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(yi) Tj
+(, ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{share:.0%}") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(va) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("center") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(INK) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_yticks) Tj
+(\() Tj
+(y) Tj
+(, [) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{c}  {DESCRIPTION[c]}") Tj
+0.00 0.00 0.00 rg
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(c) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(g) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("channel") Tj
+0.00 0.00 0.00 rg
+(]], ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(INK) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(tick_params) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("y") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(length) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pad) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 16 of 19) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 38 0 R >>
+endobj
+38 0 obj
+<< /Length 11077 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_title) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("{detector} · {g['samples'][0]:,} alarm samples") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(7) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(MUTED) Tj
+(, ) Tj
+(loc) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("right") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(pa) Tj
+T*
+(      ) Tj
+(d) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\() Tj
+(faults) Tj
+(: ) Tj
+(list) Tj
+([) Tj
+(int) Tj
+(]\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Write figures/contributions.png: the top channels of each fault, SPE on the left and ridge on the) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(right.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(means) Tj
+( = ) Tj
+(shares) Tj
+(\() Tj
+(mean_table) Tj
+(\(\)\).) Tj
+(filter) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(is_in) Tj
+(\() Tj
+(faults) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(top) Tj
+( = ) Tj
+(means) Tj
+(.) Tj
+(sort) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("share") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(descending) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\).) Tj
+(group_by) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(head) Tj
+(\() Tj
+(TOP) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(right) Tj
+( = ) Tj
+(min) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+0.00 0.00 0.00 rg
+(, \() Tj
+(top) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("share") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(max) Tj
+(\(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(or) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+0.05 0.40 0.50 rg
+(0.0) Tj
+0.00 0.00 0.00 rg
+(\) + ) Tj
+0.05 0.40 0.50 rg
+(0.12) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(height) Tj
+( = ) Tj
+0.05 0.40 0.50 rg
+(0.6) Tj
+0.00 0.00 0.00 rg
+( + ) Tj
+0.05 0.40 0.50 rg
+(1.55) Tj
+0.00 0.00 0.00 rg
+( * ) Tj
+(len) Tj
+(\() Tj
+(faults) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(, ) Tj
+(axes) Tj
+( = ) Tj
+(plt) Tj
+(.) Tj
+(subplots) Tj
+(\() Tj
+(len) Tj
+(\() Tj
+(faults) Tj
+(\), ) Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(figsize) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(height) Tj
+(\), ) Tj
+(sharex) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(squeeze) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(, ) Tj
+(layout) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("cons) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(trained") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(get_layout_engine) Tj
+(\(\).) Tj
+(set) Tj
+(\() Tj
+(hspace) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(rect) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+( - ) Tj
+0.05 0.40 0.50 rg
+(0.22) Tj
+0.00 0.00 0.00 rg
+( / ) Tj
+(height) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(row) Tj
+(, ) Tj
+(fault) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(axes) Tj
+(, ) Tj
+(faults) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ax) Tj
+(, ) Tj
+(detector) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(row) Tj
+(, \() Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(\)\):) Tj
+T*
+(  ) Tj
+(            ) Tj
+(panel) Tj
+(\() Tj
+(ax) Tj
+(, ) Tj
+(top) Tj
+(.) Tj
+(filter) Tj
+(\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("fault") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+(fault) Tj
+(\) & \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("detector") Tj
+0.00 0.00 0.00 rg
+(\) == ) Tj
+(detector) Tj
+(\)\), ) Tj
+(detector) Tj
+(, ) Tj
+(r) Tj
+T*
+(      ) Tj
+(ight) Tj
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(title) Tj
+( = ) Tj
+(row) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(annotate) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("IDV\({fault}\): {FAULT_NAME.get\(fault, 'unknown'\)}") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(xy) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(0.0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(                                ) Tj
+(xycoords) Tj
+(=\() Tj
+0.62 0.20 0.12 rg
+("figure fraction") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("axes fraction") Tj
+0.00 0.00 0.00 rg
+(\), ) Tj
+(xytext) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(16) Tj
+0.00 0.00 0.00 rg
+(\),) Tj
+T*
+(  ) Tj
+(                                ) Tj
+(textcoords) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("offset points") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+(INK) Tj
+(, ) Tj
+(weight) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("bold") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(title) Tj
+(.) Tj
+(set_in_layout) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(supxlabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("share of the mean statistic over the alarm samples after sample 20") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+T*
+(      ) Tj
+(MUTED) Tj
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(FIGURES) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(savefig) Tj
+(\() Tj
+(FIGURES) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("contributions.png") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(dpi) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(200) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+( = ) Tj
+(argparse) Tj
+(.) Tj
+(ArgumentParser) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--faults") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(nargs) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("+") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(default) Tj
+(=[) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(6) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(]\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(args) Tj
+( = ) Tj
+(parser) Tj
+(.) Tj
+(parse_args) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(faults) Tj
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: plot_detectors.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Plot T2, SPE and the ridge score of one faulty run, each against its threshold in) Tj
+T*
+0.00 0.00 0.00 rg
+(      ) Tj
+0.62 0.20 0.12 rg
+(results/thresholds.csv.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(FAULT) Tj
+(, ) Tj
+(FAULT_START) Tj
+(, ) Tj
+(FIGURES) Tj
+(, ) Tj
+(KEYS) Tj
+(, ) Tj
+(MINUTES_PER_SAMPLE) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(SAMPLE) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(matplotlib) Tj
+(.) Tj
+(use) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Agg") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(PANELS) Tj
+( = [\() Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("T2") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("$T^2$") Tj
+0.00 0.00 0.00 rg
+(\), \() Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("SPE") Tj
+0.00 0.00 0.00 rg
+(\), \() Tj
+0.62 0.20 0.12 rg
+("ridge") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("ridge score") Tj
+0.00 0.00 0.00 rg
+(\)]) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\() Tj
+(fault) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(sim_run) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Write figures/detectors_fault{fault}_run{sim_run}.png.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(thresholds) Tj
+( = ) Tj
+(dict) Tj
+(\() Tj
+(pl) Tj
+(.) Tj
+(read_csv) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("thresholds.csv") Tj
+0.00 0.00 0.00 rg
+(\).) Tj
+(iter_rows) Tj
+(\(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(pca) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_pca.parquet") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ridge) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_ridge.parquet") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(g) Tj
+( = \() Tj
+(pca) Tj
+(.) Tj
+(join) Tj
+(\() Tj
+(ridge) Tj
+(, ) Tj
+(on) Tj
+(=) Tj
+(KEYS) Tj
+(, ) Tj
+(how) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(         .) Tj
+(filter) Tj
+(\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) == ) Tj
+(fault) Tj
+(\) & \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\) == ) Tj
+(sim_run) Tj
+(\)\).) Tj
+(sort) Tj
+(\() Tj
+(SAMPLE) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(hours) Tj
+( = ) Tj
+(g) Tj
+([) Tj
+(SAMPLE) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\) * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( / ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(onset) Tj
+( = ) Tj
+(FAULT_START) Tj
+( * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( / ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 17 of 19) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 40 0 R >>
+endobj
+40 0 obj
+<< /Length 11643 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(, ) Tj
+(axes) Tj
+( = ) Tj
+(plt) Tj
+(.) Tj
+(subplots) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(3) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(figsize) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(3.6) Tj
+0.00 0.00 0.00 rg
+(\), ) Tj
+(sharex) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(for) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(ax) Tj
+(, \() Tj
+(detector) Tj
+(, ) Tj
+(column) Tj
+(, ) Tj
+(label) Tj
+(\) ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(in) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(zip) Tj
+(\() Tj
+(axes) Tj
+(, ) Tj
+(PANELS) Tj
+(\):) Tj
+T*
+(  ) Tj
+(        ) Tj
+(values) Tj
+( = ) Tj
+(g) Tj
+([) Tj
+(column) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(plot) Tj
+(\() Tj
+(hours) Tj
+(, ) Tj
+(values) Tj
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#2a6fb0") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1.0) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(set_ylim) Tj
+(\() Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(1.3) Tj
+0.00 0.00 0.00 rg
+( * ) Tj
+(max) Tj
+(\() Tj
+(values) Tj
+([~) Tj
+(np) Tj
+(.) Tj
+(isnan) Tj
+(\() Tj
+(values) Tj
+(\)].) Tj
+(max) Tj
+(\(\), ) Tj
+(thresholds) Tj
+([) Tj
+(detector) Tj
+(]\)\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(axhline) Tj
+(\() Tj
+(thresholds) Tj
+([) Tj
+(detector) Tj
+(], ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#555555") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ls) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("--") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(                   ) Tj
+(label) Tj
+(=) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("threshold {thresholds[detector]:.1f}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(axvline) Tj
+(\() Tj
+(onset) Tj
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#999999") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ls) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(":") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(set_ylabel) Tj
+(\() Tj
+(label) Tj
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(9) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(tick_params) Tj
+(\() Tj
+(labelsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(spines) Tj
+([[) Tj
+0.62 0.20 0.12 rg
+("top") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("right") Tj
+0.00 0.00 0.00 rg
+(]].) Tj
+(set_visible) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(grid) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("y") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#e5e5e5") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.6) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(        ) Tj
+(ax) Tj
+(.) Tj
+(legend) Tj
+(\() Tj
+(loc) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("upper right") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(7.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(frameon) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(axes) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(text) Tj
+(\() Tj
+(onset) Tj
+(, ) Tj
+(axes) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(get_ylim) Tj
+(\(\)[) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+0.62 0.20 0.12 rg
+(" fault on") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ha) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(va) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("top") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#333333") Tj
+0.00 0.00 0.00 rg
+T*
+(      ) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(axes) Tj
+([) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(set_title) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("IDV\({fault}\), run {sim_run}") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(axes) Tj
+([-) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(set_xlabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("time \(h\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(tight_layout) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(FIGURES) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(savefig) Tj
+(\() Tj
+(FIGURES) Tj
+( / ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("detectors_fault{fault}_run{sim_run}.png") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(dpi) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(200) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+( = ) Tj
+(argparse) Tj
+(.) Tj
+(ArgumentParser) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(args) Tj
+( = ) Tj
+(parser) Tj
+(.) Tj
+(parse_args) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(fault) Tj
+(, ) Tj
+(args) Tj
+(.) Tj
+(run) Tj
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Code: plot_ridge.py) Tj
+T*
+T*
+/F1 8 Tf
+(  ) Tj
+0.62 0.20 0.12 rg
+("""Plot the ridge score of one faulty run against the 99th-percentile validation threshold.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__future__) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(annotations) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(argparse) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(matplotlib) Tj
+(.) Tj
+(pyplot) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(plt) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(numpy) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(np) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(polars) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(as) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(pl) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(from) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(common) Tj
+( ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(import) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(FAULT) Tj
+(, ) Tj
+(FAULT_START) Tj
+(, ) Tj
+(FIGURES) Tj
+(, ) Tj
+(MINUTES_PER_SAMPLE) Tj
+(, ) Tj
+(RESULTS) Tj
+(, ) Tj
+(RUN) Tj
+(, ) Tj
+(SAMPLE) Tj
+(, ) Tj
+(VALIDATION) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(matplotlib) Tj
+(.) Tj
+(use) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("Agg") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(threshold) Tj
+(\() Tj
+(scores) Tj
+(: ) Tj
+(pl) Tj
+(.) Tj
+(DataFrame) Tj
+(\) -> ) Tj
+(float) Tj
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Return numpy.quantile\(score, 0.99\) over the validation runs.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(val) Tj
+( = ) Tj
+(scores) Tj
+(.) Tj
+(filter) Tj
+(\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) == ) Tj
+0.05 0.40 0.50 rg
+(0) Tj
+0.00 0.00 0.00 rg
+(\) & ) Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\).) Tj
+(is_between) Tj
+(\(*) Tj
+(VALIDATION) Tj
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(return) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(float) Tj
+(\() Tj
+(np) Tj
+(.) Tj
+(quantile) Tj
+(\() Tj
+(val) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_numpy) Tj
+(\(\), ) Tj
+0.05 0.40 0.50 rg
+(0.99) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(def) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(run) Tj
+(\() Tj
+(fault) Tj
+(: ) Tj
+(int) Tj
+(, ) Tj
+(sim_run) Tj
+(: ) Tj
+(int) Tj
+(\) -> ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(None) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+0.62 0.20 0.12 rg
+("""Write figures/ridge_fault{fault}_run{sim_run}.png.""") Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+(    ) Tj
+(scores) Tj
+( = ) Tj
+(pl) Tj
+(.) Tj
+(read_parquet) Tj
+(\() Tj
+(RESULTS) Tj
+( / ) Tj
+0.62 0.20 0.12 rg
+("scores_ridge.parquet") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(limit) Tj
+( = ) Tj
+(threshold) Tj
+(\() Tj
+(scores) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(g) Tj
+( = ) Tj
+(scores) Tj
+(.) Tj
+(filter) Tj
+(\(\() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(FAULT) Tj
+(\) == ) Tj
+(fault) Tj
+(\) & \() Tj
+(pl) Tj
+(.) Tj
+(col) Tj
+(\() Tj
+(RUN) Tj
+(\) == ) Tj
+(sim_run) Tj
+(\)\).) Tj
+(sort) Tj
+(\() Tj
+(SAMPLE) Tj
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(hours) Tj
+( = ) Tj
+(g) Tj
+([) Tj
+(SAMPLE) Tj
+(].) Tj
+(to_numpy) Tj
+(\(\) * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( / ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+T*
+0.00 0.00 0.00 rg
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(, ) Tj
+(ax) Tj
+( = ) Tj
+(plt) Tj
+(.) Tj
+(subplots) Tj
+(\() Tj
+(figsize) Tj
+(=\() Tj
+0.05 0.40 0.50 rg
+(6.5) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.05 0.40 0.50 rg
+(3.0) Tj
+0.00 0.00 0.00 rg
+(\)\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(plot) Tj
+(\() Tj
+(hours) Tj
+(, ) Tj
+(g) Tj
+([) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(].) Tj
+(to_numpy) Tj
+(\(\), ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#2a6fb0") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1.2) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(label) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("score") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(axhline) Tj
+(\() Tj
+(limit) Tj
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#555555") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ls) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("--") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(label) Tj
+(=) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("threshold {limit:.1f}") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(axvline) Tj
+(\() Tj
+(FAULT_START) Tj
+( * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( / ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#999999") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ls) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+(":") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(text) Tj
+(\() Tj
+(FAULT_START) Tj
+( * ) Tj
+(MINUTES_PER_SAMPLE) Tj
+( / ) Tj
+0.05 0.40 0.50 rg
+(60) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ax) Tj
+(.) Tj
+(get_ylim) Tj
+(\(\)[) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(], ) Tj
+0.62 0.20 0.12 rg
+(" fault on") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(ha) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("left") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(va) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("top") Tj
+0.00 0.00 0.00 rg
+(,) Tj
+T*
+(  ) Tj
+(            ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#333333") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 18 of 19) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 42 0 R >>
+endobj
+42 0 obj
+<< /Length 3246 >>
+stream
+BT /F1 8 Tf 42 748 Td 10.2 TL
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_xlabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("time \(h\)") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_ylabel) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("ridge score") Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(set_title) Tj
+(\() Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("Ridge forecast-residual score, IDV\({fault}\), run {sim_run}") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(10) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(spines) Tj
+([[) Tj
+0.62 0.20 0.12 rg
+("top") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+0.62 0.20 0.12 rg
+("right") Tj
+0.00 0.00 0.00 rg
+(]].) Tj
+(set_visible) Tj
+(\() Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(grid) Tj
+(\() Tj
+(axis) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("y") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(color) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("#e5e5e5") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(lw) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(0.6) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(ax) Tj
+(.) Tj
+(legend) Tj
+(\() Tj
+(loc) Tj
+(=) Tj
+0.62 0.20 0.12 rg
+("upper right") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(fontsize) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(8) Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(frameon) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(False) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(tight_layout) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+(    ) Tj
+(FIGURES) Tj
+(.) Tj
+(mkdir) Tj
+(\() Tj
+(exist_ok) Tj
+(=) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(True) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(fig) Tj
+(.) Tj
+(savefig) Tj
+(\() Tj
+(FIGURES) Tj
+( / ) Tj
+(f) Tj
+0.62 0.20 0.12 rg
+("ridge_fault{fault}_run{sim_run}.png") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(dpi) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(200) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+T*
+(  ) Tj
+/F2 8 Tf
+0.45 0.15 0.55 rg
+(if) Tj
+/F1 8 Tf
+0.00 0.00 0.00 rg
+( ) Tj
+(__name__) Tj
+( == ) Tj
+0.62 0.20 0.12 rg
+("__main__") Tj
+0.00 0.00 0.00 rg
+(:) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+( = ) Tj
+(argparse) Tj
+(.) Tj
+(ArgumentParser) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--fault") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(4) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(parser) Tj
+(.) Tj
+(add_argument) Tj
+(\() Tj
+0.62 0.20 0.12 rg
+("--run") Tj
+0.00 0.00 0.00 rg
+(, ) Tj
+(type) Tj
+(=) Tj
+(int) Tj
+(, ) Tj
+(default) Tj
+(=) Tj
+0.05 0.40 0.50 rg
+(1) Tj
+0.00 0.00 0.00 rg
+(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(args) Tj
+( = ) Tj
+(parser) Tj
+(.) Tj
+(parse_args) Tj
+(\(\)) Tj
+T*
+(  ) Tj
+(    ) Tj
+(run) Tj
+(\() Tj
+(args) Tj
+(.) Tj
+(fault) Tj
+(, ) Tj
+(args) Tj
+(.) Tj
+(run) Tj
+(\)) Tj
+T*
+T*
+/F2 8 Tf
+(Summary line) Tj
+T*
+T*
+/F1 8 Tf
+(  {"team": "\\nminiproject20", "andrew_ids": ["wenwenw", "junwooh", "bolanz", "pbu"], "generated": "2026-10-09) Tj
+T*
+(      ) Tj
+(20:13 EDT", "auto_score": 10.0, "auto_of": 10, "held_for_ta": 0.0, "total": 15, "script_sha256":) Tj
+T*
+(      ) Tj
+("744445fa94498271372f89d7a8053499fd20999c7754842f770eb7bd5f4a157a"}) Tj
+T*
+ET
+BT /F1 7 Tf 0.40 0.40 0.40 rg 42 40 Td (Miniproject evidence, wenwenw junwooh bolanz pbu   page 19 of 19) Tj ET
+endstream
+endobj
+xref
+0 43
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000240 00000 n 
+0000000308 00000 n 
+0000000381 00000 n 
+0000000517 00000 n 
+0000005411 00000 n 
+0000005547 00000 n 
+0000009736 00000 n 
+0000009873 00000 n 
+0000016866 00000 n 
+0000017004 00000 n 
+0000025933 00000 n 
+0000026071 00000 n 
+0000038646 00000 n 
+0000038784 00000 n 
+0000043850 00000 n 
+0000043988 00000 n 
+0000049311 00000 n 
+0000049449 00000 n 
+0000055385 00000 n 
+0000055523 00000 n 
+0000060680 00000 n 
+0000060818 00000 n 
+0000065736 00000 n 
+0000065874 00000 n 
+0000073519 00000 n 
+0000073657 00000 n 
+0000079804 00000 n 
+0000079942 00000 n 
+0000085335 00000 n 
+0000085473 00000 n 
+0000091511 00000 n 
+0000091649 00000 n 
+0000096897 00000 n 
+0000097035 00000 n 
+0000112308 00000 n 
+0000112446 00000 n 
+0000123577 00000 n 
+0000123715 00000 n 
+0000135412 00000 n 
+0000135550 00000 n 
+trailer
+<< /Size 43 /Root 1 0 R >>
+startxref
+138849
+%%EOF
